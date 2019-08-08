@@ -1,0 +1,21 @@
+﻿https://www.zhiaronline.com
+http://www.zhiarsoft.com
+
+
+secure 
+192.168.1.1 ipv4
+SSL
+
+whois
+ICAN
+
+version control	|-- feature 2
+		|
+---------->master------------------->
+		|						|
+		|-->feature 1---->still feature1----> ... --->|
+
+
+آدرس دهی 
+نسبی  relative
+مطلق  absolute 
