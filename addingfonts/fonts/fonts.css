@@ -1,0 +1,5 @@
+@font-face{
+    font-family: "my font";
+    src:url("IRANSansWeb.eot");
+    src:url("IRANSansWeb.ttf") format("truetype"),url("IRANSansWeb.woff") format("woff"),url("IRANSansWeb.woff2") format("woff2");
+}
