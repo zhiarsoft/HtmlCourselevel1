@@ -1,0 +1,94 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#FFF;
+    direction: rtl;
+    font:9pt tahoma;
+
+}
+a{
+    text-decoration: none;
+    color:#ff9900;
+
+}
+a:hover{
+    color:#ff0000;
+}
+.clear{
+    clear:both;
+}
+.container{
+    border:1px solid #ccc;
+    min-height: 300px;
+    width:1170px;
+    margin:30px auto;
+    overflow:auto;
+}
+#product-list-container{
+    width:100%;
+    display: block;
+
+}
+#product-list-container li{
+    width:16.3%;
+    list-style: none;
+    padding:5px;
+    float:right;
+}
+#product-list-container li .product-item:hover{
+    background-color: #ff9900;
+}
+#product-list-container .product-item{
+    border:1px solid #efefef;
+    padding:5px;
+    text-align: center;
+    transition:all 3s ease;
+    position: relative;
+}
+#product-list-contianer img{
+    clear:both;
+    margin:10px;
+}
+#product-list-container .product-title{
+    clear: both;
+    display: inline-block;
+    float:none;
+    color:#000;
+}
+#product-list-container .product-title:hover{
+    color:#555;
+    cursor: pointer;
+}
+#product-list-container .price{
+    color:#ff0000;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.btn{
+    background-color: green;   
+    padding:5px 15px 10px;
+    border:1px solid green;
+    color:#fff;
+    margin:10px  auto;
+    display: inline-block;
+    border-radius: 5px;
+    transition:all 0.4s;
+}
+.btn:hover{
+    background-color: #fff;
+    color:green;
+    height:80px;
+}
+#product-list-container span{
+    background-color: red;
+    color:#fff;
+    padding:5px;
+    border-radius: 10px;
+    position: absolute;
+    top:5px;
+    left:5px;
+}
